@@ -11,14 +11,14 @@ const isHover = ref(false);
     </h2>
     <CategoryLink :category="post.category" />
     <RenderMarkdown :source="post.intro" />
-    <a
-      href="#"
+    <NuxtLink
       class="more"
+      :to="`/posts/${post.slug}`"
       @mouseenter="isHover = true"
       @mouseleave="isHover = false"
     >
-      More...</a
-    >
+      More...
+    </NuxtLink>
   </div>
 </template>
 
