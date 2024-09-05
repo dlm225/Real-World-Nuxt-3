@@ -17,7 +17,7 @@
     "eslint": "^8.55.0",
     "highlight.js": "^11.9.0",
     "json-server": "^0.17.4",
-    "nuxt": "^3.8.2",
+    "nuxt": "^3.13.1",
     "sass": "^1.69.5",
     "vue": "^3.3.8",
     "vue-markdown-render": "^2.1.1",
