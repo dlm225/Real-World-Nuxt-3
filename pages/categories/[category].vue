@@ -2,6 +2,10 @@
 import type { CategoryDetails } from "@/data/categories";
 import { getCategoryDetailsUrl } from "@/data/categories";
 
+definePageMeta({
+  layout: "breadcrumb",
+});
+
 const categorySlug = useParam("category");
 
 const { data: category } = await useFetch<CategoryDetails>(
